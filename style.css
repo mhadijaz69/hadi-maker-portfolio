@@ -1,117 +1,307 @@
-body{
-    font-family:'Poppins',sans-serif;
+/* ---------- GENERAL ---------- */
+
+*{
     margin:0;
-    background:#F8FAFC;
-    color:#0F172A;
-    line-height:1.7;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.hero{
-    height:90vh;
+html{
+    scroll-behavior:smooth;
+}
 
-    background:linear-gradient(
-        rgba(248,250,252,.90),
-        rgba(248,250,252,.90)
-    );
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#F5F7FA;
+
+    color:#1E293B;
+
+    line-height:1.8;
+
+}
+
+/* ---------- HERO ---------- */
+
+.hero{
+
+    min-height:100vh;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
 
-    text-align:left;
+    padding:80px;
+
+    background:linear-gradient(135deg,#0F172A,#1E3A8A);
+
+    color:white;
+
 }
 
 .hero-content{
-    width:80%;
-    max-width:1100px;
+
+    max-width:900px;
+
 }
 
 .hero h1{
-    font-size:82px;
-    font-weight:700;
-    color:#0F172A;
-    margin-bottom:10px;
+
+    font-size:72px;
+
+    font-weight:800;
+
+    margin-bottom:15px;
+
 }
 
 .hero h2{
-    font-size:32px;
-    color:#2563EB;
-    font-weight:600;
+
+    font-size:28px;
+
+    font-weight:500;
+
+    color:#BFDBFE;
+
     margin-bottom:30px;
+
 }
 
 .hero p{
+
+    font-size:22px;
+
     max-width:700px;
-    font-size:26px;
-    color:#475569;
+
+    color:#E2E8F0;
+
+    margin-bottom:45px;
+
 }
 
+/* ---------- BUTTONS ---------- */
+
+.buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:16px 34px;
+
+    border-radius:10px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-4px);
+
+}
+
+.secondary{
+
+    background:transparent;
+
+    border:2px solid white;
+
+}
+
+.secondary:hover{
+
+    background:white;
+
+    color:#0F172A;
+
+}
+
+/* ---------- NAV ---------- */
+
 nav{
+
     position:sticky;
+
     top:0;
+
     z-index:1000;
 
     background:white;
 
     display:flex;
+
     justify-content:center;
-    align-items:center;
 
-    padding:18px;
+    padding:20px;
 
-    box-shadow:0 2px 12px rgba(0,0,0,.08);
+    gap:40px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
 }
 
 nav a{
-    color:#0f172a;
-    margin:0 25px;
+
     text-decoration:none;
+
+    color:#1E293B;
+
     font-weight:600;
+
     transition:.3s;
+
 }
 
 nav a:hover{
-    color:#2563eb;
+
+    color:#2563EB;
+
+}
+
+/* ---------- SECTIONS ---------- */
+
+section{
+
+    width:85%;
+
+    max-width:1200px;
+
+    margin:70px auto;
+
+    background:white;
+
+    padding:55px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+/* ---------- HEADINGS ---------- */
+
+h2{
+
+    font-size:36px;
+
+    color:#1E3A8A;
+
+    margin-bottom:25px;
+
+}
+
+h3{
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+    color:#0F172A;
+
+}
+
+/* ---------- TEXT ---------- */
+
+p{
+
+    font-size:18px;
+
+    margin-bottom:20px;
+
+}
+
+ul{
+
+    margin-top:20px;
+
+    margin-left:25px;
+
+}
+
+li{
+
+    margin-bottom:12px;
+
+}
+
+/* ---------- CONTACT ---------- */
+
+#contact{
+
+    text-align:center;
+
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media(max-width:900px){
+
+.hero{
+
+padding:40px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+}
+
+.hero h2{
+
+font-size:22px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.buttons{
+
+justify-content:center;
+
+}
+
+nav{
+
+flex-wrap:wrap;
+
+gap:20px;
+
 }
 
 section{
-    background:white;
-    width:85%;
-    margin:70px auto;
-    padding:60px;
-    border-radius:20px;
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+width:95%;
+
+padding:35px;
+
 }
 
-h2{
-    color:#1E3A8A;
-    font-size:36px;
-    margin-bottom:20px;
-}
-
-.btn{
-    display:inline-block;
-    background:#2563eb;
-    color:white !important;
-    padding:15px 35px;
-    margin:10px;
-    border-radius:10px;
-    text-decoration:none;
-    font-weight:600;
-    transition:all .3s ease;
-}
-
-.btn:hover{
-    background:#1d4ed8;
-    transform:translateY(-3px);
-}
-
-.secondary{
-    background:transparent;
-    border:2px solid white;
-}
-
-.secondary:hover{
-    background:white;
-    color:#0f172a !important;
 }
