@@ -68,11 +68,19 @@ body{
     justify-content:center;
 }
 
+.hero-image{
+    position:absolute;
+    right:0;
+    top:0;
+    width:55%;
+    height:100%;
+}
+
 .hero-image img{
     width:100%;
-    max-width:760px;
-    border-radius:22px;
-    box-shadow:0 25px 60px rgba(0,0,0,.35);
+    height:100%;
+    object-fit:cover;
+    opacity:.75;
 }
 
 .hero h1{
