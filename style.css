@@ -56,8 +56,11 @@ body{
 }
 
 .hero h1{
-    font-size:72px;
-    margin-bottom:15px;
+    font-size:78px;
+    font-weight:700;
+    color:#ffffff;
+    line-height:1.05;
+    margin-bottom:20px;
 }
 
 .hero h2{
