@@ -277,3 +277,69 @@ section{
 }
 
 }
+
+/* ---------- AWARDS ---------- */
+
+.award-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.award-card{
+
+background:linear-gradient(145deg,#ffffff,#f8fbff);
+
+padding:28px;
+
+border-radius:18px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+border-top:5px solid #2563EB;
+
+transition:.3s;
+
+}
+
+.award-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(37,99,235,.18);
+
+}
+
+.award-card h3{
+
+font-size:22px;
+
+margin-bottom:15px;
+
+color:#1E3A8A;
+
+}
+
+.award-card p{
+
+font-size:17px;
+
+font-weight:600;
+
+margin-bottom:10px;
+
+}
+
+.award-card span{
+
+color:#64748B;
+
+font-size:15px;
+
+}
