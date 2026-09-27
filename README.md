@@ -29,7 +29,7 @@ https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/
 
 ### Source Code
 
-https://github.com/mhadijaz69/flight-emissions-app
+https://github.com/muhammad7hadii/flight-emissions-app
 
 ---
 
@@ -80,4 +80,4 @@ The featured aviation application uses Python, Streamlit, Pandas, Altair, Geopy,
 https://www.linkedin.com/in/muhammad-hadi-9a4661386/
 
 **GitHub:**  
-https://github.com/mhadijaz69
+https://github.com/muhammad7hadii
