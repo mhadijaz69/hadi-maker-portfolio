@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Flight Fuel & Emission Calculator | Muhammad Hadi
+    </title>
+
+    <meta
+        name="description"
+        content="A detailed case study of Muhammad Hadi's Flight Fuel and Emission Calculator, combining aviation research, computational modelling, and software development."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<nav class="site-nav project-page-nav">
+
+    <div class="nav-inner">
+
+        <a class="brand" href="index.html">MH</a>
+
+        <button
+            class="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="site-menu"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <div class="nav-links" id="site-menu">
+
+            <a href="index.html">← Portfolio</a>
+
+            <a href="index.html#research">Research</a>
+
+            <a href="index.html#experience">Experience</a>
+
+            <a href="index.html#awards">Awards</a>
+
+            <a href="index.html#contact">Contact</a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- PROJECT HERO -->
+
+<header class="project-hero">
+
+    <div class="project-hero-inner">
+
+        <p class="eyebrow light-eyebrow">
+            FEATURED ENGINEERING PROJECT
+        </p>
+
+        <h1>
+            Flight Fuel &
+            Emission Calculator
+        </h1>
+
+        <p>
+            A web application combining aviation research,
+            computational modelling, aircraft data, and software
+            development to explore fuel use, CO₂ emissions,
+            operating cost, and passenger impact across different
+            aircraft and routes.
+        </p>
+
+
+        <div class="project-stats">
+
+            <div class="stat">
+                <strong>31</strong>
+                <span>Airports</span>
+            </div>
+
+            <div class="stat">
+                <strong>4</strong>
+                <span>Airlines</span>
+            </div>
+
+            <div class="stat">
+                <strong>25+</strong>
+                <span>Aircraft</span>
+            </div>
+
+        </div>
+
+
+        <div class="button-row">
+
+            <a
+                href="https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn"
+            >
+                Launch Live App ↗
+            </a>
+
+            <a
+                href="https://github.com/mhadijaz69/flight-emissions-app"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn secondary"
+            >
+                View Source Code ↗
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<!-- WHY -->
+
+<section class="case-section">
+
+    <p class="eyebrow">01 — THE IDEA</p>
+
+    <h2>
+        Why I built it
+    </h2>
+
+
+    <div class="case-grid">
+
+        <article class="case-card">
+
+            <h3>The Problem</h3>
+
+            <p>
+                Aviation emissions are often presented as large,
+                abstract figures that are difficult to connect to
+                an individual flight or aircraft choice. I became
+                interested in whether these calculations could be
+                made more accessible while still being grounded in
+                published aviation research.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>The Goal</h3>
+
+            <p>
+                I wanted to create a tool that could take technical
+                ideas from my aviation-emissions research and turn
+                them into an interactive application that lets
+                users explore how route and aircraft selection
+                influence estimated environmental and operational
+                outcomes.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- HOW IT WORKS -->
+
+<section class="case-section">
+
+    <p class="eyebrow">02 — HOW IT WORKS</p>
+
+    <h2>
+        From route selection to comparison
+    </h2>
+
+
+    <div class="process-grid">
+
+        <article class="process-card">
+
+            <span class="process-number">01</span>
+
+            <h3>Select a route</h3>
+
+            <p>
+                Users choose origin and destination airports.
+                Geographic coordinates are used to calculate
+                route distance.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span class="process-number">02</span>
+
+            <h3>Choose aircraft</h3>
+
+            <p>
+                Airline and aircraft selections connect the route
+                to aircraft-specific performance information used
+                by the estimator.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span class="process-number">03</span>
+
+            <h3>Estimate impact</h3>
+
+            <p>
+                The application estimates fuel consumption,
+                carbon emissions, operating fuel cost, and
+                per-passenger impact.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span class="process-number">04</span>
+
+            <h3>Compare aircraft</h3>
+
+            <p>
+                Users can compare several aircraft on the same
+                route and explore differences in efficiency,
+                emissions, and estimated cost.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- RESEARCH -->
+
+<section class="case-section">
+
+    <p class="eyebrow">03 — RESEARCH FOUNDATION</p>
+
+    <h2>
+        The project began as research.
+    </h2>
+
+    <p>
+        Before building the application, I conducted a ten-week
+        research project into aviation emissions and flight-fuel
+        estimation. I studied existing approaches, published
+        aviation research, emissions factors, and the limitations
+        of publicly accessible flight datasets.
+    </p>
+
+    <p>
+        My original research direction involved a more complex
+        artificial-intelligence approach. However, the available
+        public data did not contain enough consistent information
+        on passenger loads, flight distances, and fuel consumption
+        to support the model reliably.
+    </p>
+
+    <p>
+        I therefore shifted toward a more transparent
+        regression-based approach. That decision taught me that
+        selecting an appropriate method is more important than
+        selecting the most complicated one.
+    </p>
+
+
+    <div class="button-row">
+
+        <a
+            href="https://www.ijfmr.com/research-paper.php?id=67871"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+        >
+            Read Published Paper ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- DEVELOPMENT -->
+
+<section class="case-section">
+
+    <p class="eyebrow">04 — DEVELOPMENT PROCESS</p>
+
+    <h2>
+        From paper to deployed software
+    </h2>
+
+
+    <div class="process-grid">
+
+        <article class="process-card">
+
+            <span class="process-number">PHASE 1</span>
+
+            <h3>Research</h3>
+
+            <p>
+                Studied aviation emissions, aircraft fuel
+                consumption, modelling approaches, and published
+                emissions factors.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span class="process-number">PHASE 2</span>
+
+            <h3>Prototype</h3>
+
+            <p>
+                Built the first Python model and tested how route
+                distance, fuel consumption, and emissions could be
+                combined.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span class="process-number">PHASE 3</span>
+
+            <h3>Expansion</h3>
+
+            <p>
+                Added airport data, aircraft options, airline
+                fleets, passenger calculations, operating-cost
+                estimates, and comparison visualisations.
+            </p>
+
+        </article>
+
+
+        <article class="process-card">
+
+            <span class="process-number">PHASE 4</span>
+
+            <h3>Deployment</h3>
+
+            <p>
+                Developed the user interface with Streamlit,
+                version-controlled the project through GitHub,
+                and deployed it as a public web application.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- SCREENSHOT -->
+
+<section class="case-section">
+
+    <p class="eyebrow">05 — APPLICATION</p>
+
+    <h2>
+        The working application
+    </h2>
+
+    <p>
+        The interface is designed to present technical calculations
+        in a form that can still be understood by a non-specialist.
+        The screenshot below shows a complete comparison workflow.
+    </p>
+
+
+    <div class="app-shot-shell">
+
+        <img
+            src="app-screenshot.png"
+            alt="Full interface of the Flight Fuel and Emission Calculator"
+        >
+
+    </div>
+
+
+    <div class="button-row" style="margin-top: 25px;">
+
+        <a
+            href="app-screenshot.png"
+            target="_blank"
+            class="text-link"
+        >
+            Open Full Screenshot ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- TECH STACK -->
+
+<section class="case-section">
+
+    <p class="eyebrow">06 — TECHNICAL STACK</p>
+
+    <h2>
+        Tools used to build the project
+    </h2>
+
+
+    <div class="skill-tags">
+
+        <span>Python</span>
+        <span>Streamlit</span>
+        <span>Pandas</span>
+        <span>Altair</span>
+        <span>Geopy</span>
+        <span>Geodesic Distance</span>
+        <span>GitHub</span>
+        <span>Aircraft Data</span>
+        <span>Airport Data</span>
+        <span>Regression Modelling</span>
+
+    </div>
+
+</section>
+
+
+<!-- CHALLENGES -->
+
+<section class="case-section">
+
+    <p class="eyebrow">07 — ENGINEERING DECISIONS</p>
+
+    <h2>
+        Challenges, limitations & decisions
+    </h2>
+
+
+    <div class="case-grid">
+
+        <article class="case-card">
+
+            <h3>Data availability</h3>
+
+            <p>
+                Detailed operational airline data is not always
+                publicly available. I had to work with accessible
+                aircraft specifications and published research
+                while recognising where assumptions were necessary.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>Changing the model</h3>
+
+            <p>
+                I initially considered an AI-based approach, but
+                changed direction when the available dataset did
+                not adequately support it. This resulted in a more
+                transparent and defensible methodology.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>Accuracy vs accessibility</h3>
+
+            <p>
+                A professional airline operations model can require
+                data unavailable to a public application. I focused
+                on creating an understandable estimator while
+                documenting the assumptions behind its outputs.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>Turning research into software</h3>
+
+            <p>
+                A methodology that works on paper still needs to be
+                translated into inputs, calculations, validation,
+                visualisations, and a user interface before it
+                becomes useful software.
+            </p>
+
+        </article>
+
+    </div>
+
+
+    <div class="model-note">
+
+        <strong>Model limitation</strong>
+
+        <p>
+            The calculator is an educational estimation tool rather
+            than a certified airline operational or regulatory
+            emissions model. Real flights are affected by factors
+            including weather, routing, payload, engine variant,
+            altitude, taxi time, and operational procedures.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- FUTURE -->
+
+<section class="case-section">
+
+    <p class="eyebrow">08 — NEXT STEPS</p>
+
+    <h2>
+        How I would develop it further
+    </h2>
+
+
+    <div class="case-grid">
+
+        <article class="case-card">
+
+            <h3>Broader datasets</h3>
+
+            <p>
+                Expand the airport, airline, and aircraft databases
+                to support a much larger set of international routes.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>More detailed fuel modelling</h3>
+
+            <p>
+                Incorporate richer flight-phase and aircraft
+                performance data where reliable public datasets
+                become available.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>Live economic data</h3>
+
+            <p>
+                Replace simplified fuel-cost assumptions with a
+                reliable live or regularly updated aviation fuel
+                pricing source.
+            </p>
+
+        </article>
+
+
+        <article class="case-card">
+
+            <h3>Model uncertainty</h3>
+
+            <p>
+                Add uncertainty ranges and clearer sensitivity
+                analysis so users can understand how assumptions
+                influence the final estimate.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- LEARNING -->
+
+<section class="case-section">
+
+    <p class="eyebrow">09 — REFLECTION</p>
+
+    <h2>
+        What I learned
+    </h2>
+
+    <p>
+        The most important lesson from this project was that
+        engineering is not simply about producing a calculation.
+        It requires deciding what information can be trusted,
+        recognising the limitations of a model, communicating
+        assumptions clearly, and repeatedly refining a solution
+        when new problems appear.
+    </p>
+
+    <p>
+        Moving from research to a functioning web application also
+        showed me how programming can turn theoretical analysis into
+        something people can interact with and question. That
+        combination of engineering, computation, and real-world
+        application is what I hope to continue exploring in college.
+    </p>
+
+
+    <div class="button-row" style="margin-top: 30px;">
+
+        <a
+            href="https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn"
+        >
+            Try the Application ↗
+        </a>
+
+        <a
+            href="https://github.com/mhadijaz69/flight-emissions-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn dark-btn"
+        >
+            Explore the Code ↗
+        </a>
+
+        <a href="index.html" class="text-link">
+            ← Return to Portfolio
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        © <span id="year">2026</span> Muhammad Hadi
+        • Engineering Maker Portfolio
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
