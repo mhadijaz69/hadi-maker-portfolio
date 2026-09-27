@@ -5,306 +5,785 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Muhammad Hadi | Maker Portfolio</title>
+    <title>Muhammad Hadi | Engineering Maker Portfolio</title>
+
+    <meta
+        name="description"
+        content="Muhammad Hadi's engineering maker portfolio featuring aviation emissions research, software development, engineering experience, awards, and technical projects."
+    >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HERO SECTION -->
+<a class="skip-link" href="#main">Skip to content</a>
 
-<header class="hero">
 
-    <div class="overlay"></div>
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<header class="hero" id="home">
+
+    <nav class="site-nav">
+
+        <div class="nav-inner">
+
+            <a class="brand" href="#home">MH</a>
+
+            <button
+                class="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="site-menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="site-menu">
+                <a href="#about">About</a>
+                <a href="#project">Project</a>
+                <a href="#research">Research</a>
+                <a href="#experience">Experience</a>
+                <a href="#awards">Awards</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+    </nav>
+
 
     <div class="hero-content">
+
+        <p class="eyebrow light-eyebrow">
+            ENGINEERING MAKER PORTFOLIO
+        </p>
 
         <h1>Muhammad Hadi</h1>
 
         <h2>
-        Engineering | Artificial<br>
-        Intelligence | Aviation<br>
-        Sustainability
+            Aerospace Engineering,
+            Data & Sustainable Aviation
         </h2>
 
-        <p>
-        Building engineering solutions that combine<br>
-        aviation, artificial intelligence, and sustainability<br>
-        through research and software development.
+        <p class="hero-lead">
+            A high school student exploring engineering through
+            aviation research, computational modelling, software
+            development, and real-world engineering experience.
         </p>
-        
+
         <div class="hero-buttons">
-            <a href="#project" class="btn">View My Project</a>
-            <a href="#research" class="btn secondary">Research Paper</a>
+
+            <a href="#project" class="btn">
+                Explore My Project
+            </a>
+
+            <a
+                href="https://www.ijfmr.com/research-paper.php?id=67871"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn secondary"
+            >
+                Read Research Paper ↗
+            </a>
+
+        </div>
+
+        <div class="hero-tags">
+            <span>Research</span>
+            <span>Software Development</span>
+            <span>Engineering</span>
         </div>
 
     </div>
 
 </header>
 
-    <!-- NAVIGATION -->
 
-    <nav>
+<main id="main">
 
-        <a href="#about">About</a>
 
-        <a href="#project">Project</a>
+<!-- =========================================================
+     ABOUT
+========================================================= -->
 
-        <a href="#research">Research</a>
+<section class="content-section" id="about">
 
-        <a href="#awards">Awards</a>
+    <div class="section-heading">
 
-        <a href="#internships">Experience</a>
+        <p class="eyebrow">ABOUT ME</p>
 
-        <a href="#contact">Contact</a>
+        <h2>
+            Turning curiosity into things I can
+            research, build and test.
+        </h2>
 
-    </nav>
+    </div>
 
-    <!-- ABOUT -->
 
-    <section id="about">
+    <div class="about-grid">
 
-        <h2>About Me</h2>
+        <div class="about-copy">
 
-        <p>
+            <p>
+                My interest in engineering developed from wanting to understand
+                not only how aircraft work, but how engineering decisions affect
+                efficiency, cost, and environmental impact.
+            </p>
 
-            I am a high school student passionate about engineering, artificial intelligence, and sustainable aviation.
-            I enjoy designing practical solutions to real-world problems through programming, research, and data analysis.
-            My work combines scientific research with software development to create accessible tools that help people
-            better understand environmental challenges while strengthening my engineering and computational skills.
+            <p>
+                That curiosity led me to research aviation emissions, publish a
+                paper on flight-emission modelling, and then translate the ideas
+                behind my research into a working web application. Alongside
+                independent projects, I have sought experience in professional
+                engineering environments and continued developing my skills in
+                programming, data analysis, and computational modelling.
+            </p>
 
-        </p>
+            <p>
+                I hope to study aerospace or aeronautical engineering while
+                continuing to explore how data-driven methods can contribute to
+                more efficient and sustainable aviation.
+            </p>
 
-    </section>
-
-    <!-- PROJECT -->
-<section id="project" class="section">
-    <h2>Featured Engineering Project</h2>
-
-    <div class="featured-project-card">
-
-        <p class="project-label">AVIATION × DATA × SUSTAINABILITY</p>
-
-        <h3>Flight Fuel & Emission Calculator</h3>
-
-        <p class="project-summary">
-            A web application I developed using Python and Streamlit to estimate
-            flight distance, fuel consumption, CO₂ emissions, operating fuel cost,
-            and passenger impact while comparing commercial aircraft on the same route.
-        </p>
-
-        <div class="project-stats">
-            <div>
-                <strong>31</strong>
-                <span>Airports</span>
-            </div>
-
-            <div>
-                <strong>4</strong>
-                <span>Airlines</span>
-            </div>
-
-            <div>
-                <strong>25+</strong>
-                <span>Aircraft</span>
-            </div>
         </div>
 
-        <div class="project-links">
 
-            <a href="project.html"
-               target="_blank"
-               class="project-button">
-                View Full Project →
-            </a>
+        <aside class="focus-card">
 
-            <a href="https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/"
-               target="_blank"
-               class="project-button secondary-button">
-                Launch Live App ↗
-            </a>
+            <p class="card-label">CURRENT FOCUS</p>
+
+            <h3>Engineering + Computation</h3>
+
+            <div class="focus-list">
+                <span>Aerospace Engineering</span>
+                <span>Aviation Sustainability</span>
+                <span>Computational Modelling</span>
+                <span>Data Analysis</span>
+                <span>Software Development</span>
+            </div>
+
+        </aside>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FEATURED PROJECT
+========================================================= -->
+
+<section class="content-section" id="project">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">FEATURED ENGINEERING PROJECT</p>
+
+        <h2>Flight Fuel & Emission Calculator</h2>
+
+        <p class="section-intro">
+            A research-informed web application for exploring how route
+            distance and aircraft selection affect estimated fuel use,
+            carbon emissions, operating cost, and passenger impact.
+        </p>
+
+    </div>
+
+
+    <div class="project-showcase">
+
+        <div class="project-copy">
+
+            <p class="card-label">
+                AVIATION × DATA × SUSTAINABILITY
+            </p>
+
+            <h3>From research question to working software.</h3>
+
+            <p>
+                I developed the application using Python and Streamlit after
+                researching approaches to modelling aircraft fuel consumption
+                and emissions. Users can select a route, airline, and aircraft,
+                then compare estimated environmental and operational outcomes.
+            </p>
+
+
+            <div class="project-stats">
+
+                <div class="stat">
+                    <strong>31</strong>
+                    <span>Airports</span>
+                </div>
+
+                <div class="stat">
+                    <strong>4</strong>
+                    <span>Airlines</span>
+                </div>
+
+                <div class="stat">
+                    <strong>25+</strong>
+                    <span>Aircraft</span>
+                </div>
+
+            </div>
+
+
+            <div class="button-row">
+
+                <a
+                    href="project.html"
+                    target="_blank"
+                    class="btn"
+                >
+                    View Full Project →
+                </a>
+
+                <a
+                    href="https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn dark-btn"
+                >
+                    Launch App ↗
+                </a>
+
+                <a
+                    href="https://github.com/mhadijaz69/flight-emissions-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-link"
+                >
+                    Source Code ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="project-thumbnail">
+
+            <img
+                src="app-screenshot.png"
+                alt="Flight Fuel and Emission Calculator application interface"
+            >
+
+            <div class="thumbnail-caption">
+                Live Streamlit application
+            </div>
 
         </div>
 
     </div>
-</section>
-  
-    <!-- RESEARCH -->
-
-    <section id="research">
-
-        <h2>Research</h2>
-
-        <h3>Flight Emission Prediction and Passenger Environmental Impact</h3>
-
-        <p>
-
-            Conducted an independent research project investigating aviation emissions using regression modelling,
-            published emission factors, and environmental datasets. The project focuses on improving the understanding
-            of carbon emissions generated by commercial aviation while demonstrating practical applications of
-            computational modelling.
-
-        </p>
-
-    </section>
-
-    <!-- AWARDS -->
-
-    <section id="awards">
-
-<h2>🏆 Awards & Honors</h2>
-
-<p>
-My academic journey has been driven by curiosity, analytical thinking, and a passion for solving challenging problems. These achievements reflect consistent participation and success in national and international competitions across mathematics, science, computing, engineering, writing, and innovation.
-</p>
-
-<div class="award-grid">
-
-<h3 class="year-heading">2025</h3>
-    
-<div class="award-card">
-<h3>🥈 Queen's Commonwealth Essay Competition</h3>
-<p><strong>Silver Award</strong></p>
-<span>International • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>🥈 Immerse Global Futures Challenge</h3>
-<p><strong>Runner-Up</strong></p>
-<span>International • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>✍️ Immerse Education Essay Competition</h3>
-<p><strong>Honours List</strong></p>
-<span>International • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>🦅 TeenEagle Global Finals</h3>
-<p><strong>Honourable Mention</strong></p>
-<span>International • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>➗ Caribou Mathematics Competition</h3>
-<p><strong>Top 25 Worldwide (Round 3)</strong></p>
-<span>International • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>🏫 Aitchison College</h3>
-<p><strong>College Academic Blazer</strong></p>
-<span>Outstanding O-Level Academic Achievement • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>🦉 Owlypia</h3>
-<p><strong>Bronze Winner</strong></p>
-<span>International • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>⚛️ National Science Olympiad</h3>
-<p><strong>4th National Position – Physics</strong></p>
-<span>Pakistan • 2025</span>
-</div>
-
-<div class="award-card">
-<h3>💻 National Science Olympiad</h3>
-<p><strong>3rd National Position – Computer Science</strong></p>
-<span>Pakistan • 2025</span>
-</div>
-
-<h3 class="year-heading">2024</h3>
-    
-<div class="award-card">
-<h3>➗ Caribou Mathematics Competition</h3>
-<p><strong>Top 40 Worldwide (Round 2)</strong></p>
-<span>International • 2024</span>
-</div>
-
-<div class="award-card">
-<h3>🏅 International Maths Challenge</h3>
-<p><strong>Honourable Mention</strong></p>
-<span>Category 4 • 2024</span>
-</div>
-
-<div class="award-card">
-<h3>🔬 National Science Olympiad</h3>
-<p><strong>Certificate of Appreciation</strong></p>
-<span>National • 2024</span>
-</div>
-
-<h3 class="year-heading">2022</h3>
-    
-<div class="award-card">
-<h3>🥇 SEAMO</h3>
-<p><strong>Gold Medal</strong></p>
-<span>International Mathematics Competition • 2022</span>
-</div>
-
-<div class="award-card">
-<h3>📝 IKLC</h3>
-<p><strong>Special Ballpoint Award</strong></p>
-<span>Kangaroo Linguistic Contest • 2022</span>
-</div>
-
-<div class="award-card">
-<h3>🧪 IKSC</h3>
-<p><strong>Special Ballpoint Award</strong></p>
-<span>Kangaroo Science Contest • 2022</span>
-</div>
-
-<div class="award-card">
-<h3>📐 Kangaroo Mathematics Contest</h3>
-<p><strong>Happy Cube Award</strong></p>
-<span>Cadet Level Grade 9 • 2022</span>
-</div>
-
-</div>
 
 </section>
-   
 
-    <!-- EXPERIENCE -->
 
-    <section id="internships">
+<!-- =========================================================
+     RESEARCH
+========================================================= -->
 
-        <h2>Internships & Leadership</h2>
+<section class="content-section" id="research">
 
-        <p>
+    <div class="section-heading">
 
-            Experience includes internships with Care Foundation, Punjab Prison Department,
-            Abdul Aleem Khan Foundation, Alkhidmat Foundation, Bali Memorial Trust,
-            multiple Forage job simulations, AI certification programs,
-            fundraising initiatives, and research mentorship.
+        <p class="eyebrow">RESEARCH & PUBLICATION</p>
 
+        <h2>Research behind the project</h2>
+
+    </div>
+
+
+    <article class="research-card">
+
+        <div class="research-details">
+
+            <span class="status-badge">Published • 2026</span>
+
+            <h3>
+                Regression-Based Modeling of Flight Emissions
+                and Per-Passenger Climate Impact
+            </h3>
+
+            <p class="publication-line">
+                Sole Author • International Journal for Multidisciplinary
+                Research (IJFMR), Volume 8, Issue 1
+            </p>
+
+            <p>
+                Through a ten-week research project, I investigated approaches
+                to estimating aircraft fuel consumption and emissions using
+                accessible aviation data and published methodologies.
+            </p>
+
+            <p>
+                The project required me to evaluate the limitations of available
+                datasets, refine my original modelling approach, and develop a
+                transparent framework for estimating total and per-passenger
+                environmental impact. The work later became the foundation for
+                my flight-emissions web application.
+            </p>
+
+
+            <div class="button-row">
+
+                <a
+                    href="https://www.ijfmr.com/research-paper.php?id=67871"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                >
+                    Read Published Paper ↗
+                </a>
+
+                <a href="project.html" class="text-link">
+                    See how it became software →
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="research-journey">
+
+            <p class="card-label">PROJECT JOURNEY</p>
+
+            <div class="journey-item">
+                <span>01</span>
+                <p>Investigated aviation emissions and existing methodologies.</p>
+            </div>
+
+            <div class="journey-item">
+                <span>02</span>
+                <p>Developed and refined a regression-based research approach.</p>
+            </div>
+
+            <div class="journey-item">
+                <span>03</span>
+                <p>Published the resulting research as sole author.</p>
+            </div>
+
+            <div class="journey-item">
+                <span>04</span>
+                <p>Translated the research into a deployed web application.</p>
+            </div>
+
+        </div>
+
+    </article>
+
+</section>
+
+
+<!-- =========================================================
+     EXPERIENCE
+========================================================= -->
+
+<section class="content-section" id="experience">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">EXPERIENCE & LEADERSHIP</p>
+
+        <h2>Learning beyond the classroom</h2>
+
+    </div>
+
+
+    <div class="experience-grid">
+
+
+        <article class="experience-card">
+
+            <p class="card-label">ENGINEERING</p>
+
+            <h3>Allied Engineering Consultants</h3>
+
+            <p class="experience-meta">
+                Engineering Intern • Lahore • June–August 2026
+            </p>
+
+            <p>
+                Gained exposure to professional engineering consultancy through
+                technical proposals, RFP and TOR documentation, engineering CV
+                evaluation, technical-report review, and project documentation.
+                I also used tools including Excel, Word, PDF software, and
+                AutoCAD while observing how engineers and project managers
+                coordinate professional projects.
+            </p>
+
+        </article>
+
+
+        <article class="experience-card">
+
+            <p class="card-label">RESEARCH</p>
+
+            <h3>RISE Research Scholar</h3>
+
+            <p class="experience-meta">
+                10-Week Mentored Research Programme
+            </p>
+
+            <p>
+                Conducted interdisciplinary research into aviation sustainability
+                and computational modelling, resulting in my sole-authored
+                publication on flight-emission estimation and passenger impact.
+            </p>
+
+        </article>
+
+
+        <article class="experience-card">
+
+            <p class="card-label">LEADERSHIP</p>
+
+            <h3>Student Council & School Events</h3>
+
+            <p class="experience-meta">
+                Aitchison College
+            </p>
+
+            <p>
+                Served as an elected Student Council representative and worked
+                on the management team for major interschool events including
+                ArtFest and ACSEC, contributing to planning, logistics,
+                communication, and participant coordination.
+            </p>
+
+        </article>
+
+
+        <article class="experience-card">
+
+            <p class="card-label">COMMUNITY SERVICE</p>
+
+            <h3>Education & Outreach</h3>
+
+            <p class="experience-meta">
+                CARE Foundation • Punjab Prison Department
+            </p>
+
+            <p>
+                Supported classroom teaching for students in underprivileged
+                government schools and participated in supervised educational
+                sessions with juvenile prisoners, developing my communication,
+                adaptability, and understanding of service.
+            </p>
+
+        </article>
+
+
+        <article class="experience-card">
+
+            <p class="card-label">TECHNOLOGY</p>
+
+            <h3>Virtual Industry Simulations</h3>
+
+            <p class="experience-meta">
+                Accenture • GE Aerospace • JPMorgan Chase
+            </p>
+
+            <p>
+                Completed Forage simulations covering digital technology,
+                aerospace, software engineering, development workflows,
+                data, and emerging technologies.
+            </p>
+
+        </article>
+
+
+        <article class="experience-card">
+
+            <p class="card-label">SOCIAL IMPACT</p>
+
+            <h3>Community Organisations</h3>
+
+            <p class="experience-meta">
+                Alkhidmat • Door of Awareness • AAK Foundation • Bali Memorial
+            </p>
+
+            <p>
+                Contributed to fundraising, humanitarian initiatives,
+                educational outreach, field research, and social-service
+                programmes across several organisations.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     AWARDS
+========================================================= -->
+
+<section class="content-section" id="awards">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">SELECTED HONORS</p>
+
+        <h2>Academic & international recognition</h2>
+
+        <p class="section-intro">
+            Recognition across mathematics, science, computing,
+            writing, academic achievement, and interdisciplinary competitions.
         </p>
 
-    </section>
+    </div>
 
-    <!-- CONTACT -->
 
-    <section id="contact">
+    <div class="award-grid">
 
-        <h2>Contact</h2>
+        <article class="award-card">
+            <span class="award-year">2025</span>
+            <h3>National Science Olympiad</h3>
+            <strong>3rd National Position</strong>
+            <p>Computer Science</p>
+        </article>
 
-        <p>
+        <article class="award-card">
+            <span class="award-year">2025</span>
+            <h3>National Science Olympiad</h3>
+            <strong>4th National Position</strong>
+            <p>Physics</p>
+        </article>
 
-            GitHub • LinkedIn • Email
+        <article class="award-card">
+            <span class="award-year">2025</span>
+            <h3>Caribou Mathematics Competition</h3>
+            <strong>Top 25 Worldwide</strong>
+            <p>Round 3</p>
+        </article>
 
-        </p>
+        <article class="award-card">
+            <span class="award-year">2025</span>
+            <h3>Queen's Commonwealth Essay Competition</h3>
+            <strong>Silver Award</strong>
+            <p>International</p>
+        </article>
 
-    </section>
+        <article class="award-card">
+            <span class="award-year">2025</span>
+            <h3>Immerse Global Futures Challenge</h3>
+            <strong>Runner-Up</strong>
+            <p>International</p>
+        </article>
 
-    <script src="script.js"></script>
+        <article class="award-card">
+            <span class="award-year">2022</span>
+            <h3>SEAMO</h3>
+            <strong>Gold Medal</strong>
+            <p>International Mathematics Competition</p>
+        </article>
+
+    </div>
+
+
+    <details class="additional-awards">
+
+        <summary>View Additional Honors</summary>
+
+        <div class="additional-awards-grid">
+
+            <div>
+                <strong>Aitchison College Academic Blazer</strong>
+                <span>Outstanding O-Level Academic Achievement • 2025</span>
+            </div>
+
+            <div>
+                <strong>Immerse Education Essay Competition</strong>
+                <span>Honours List • 2025</span>
+            </div>
+
+            <div>
+                <strong>TeenEagle</strong>
+                <span>Honourable Mention • International • 2025</span>
+            </div>
+
+            <div>
+                <strong>Owlypia</strong>
+                <span>Bronze Winner • International • 2025</span>
+            </div>
+
+            <div>
+                <strong>Caribou Mathematics Competition</strong>
+                <span>Top 40 Worldwide • Round 2 • 2024</span>
+            </div>
+
+            <div>
+                <strong>International Maths Challenge</strong>
+                <span>Honourable Mention • Category 4 • 2024</span>
+            </div>
+
+            <div>
+                <strong>National Science Olympiad</strong>
+                <span>Certificate of Appreciation • 2024</span>
+            </div>
+
+            <div>
+                <strong>IKLC</strong>
+                <span>Special Ballpoint Award • 2022</span>
+            </div>
+
+            <div>
+                <strong>IKSC</strong>
+                <span>Special Ballpoint Award • 2022</span>
+            </div>
+
+            <div>
+                <strong>Kangaroo Mathematics Contest</strong>
+                <span>Happy Cube Award • 2022</span>
+            </div>
+
+        </div>
+
+    </details>
+
+</section>
+
+
+<!-- =========================================================
+     SKILLS
+========================================================= -->
+
+<section class="content-section" id="skills">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">TOOLS & SKILLS</p>
+
+        <h2>What I work with</h2>
+
+    </div>
+
+
+    <div class="skills-wrapper">
+
+        <div class="skill-group">
+
+            <h3>Programming & Data</h3>
+
+            <div class="skill-tags">
+                <span>Python</span>
+                <span>Java</span>
+                <span>Pandas</span>
+                <span>Streamlit</span>
+                <span>Altair</span>
+                <span>Geopy</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-group">
+
+            <h3>Engineering & Professional</h3>
+
+            <div class="skill-tags">
+                <span>AutoCAD</span>
+                <span>Microsoft Excel</span>
+                <span>GitHub</span>
+                <span>Data Analysis</span>
+                <span>Technical Writing</span>
+                <span>Research</span>
+                <span>Problem Solving</span>
+                <span>Team Collaboration</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section class="contact-section" id="contact">
+
+    <p class="eyebrow light-eyebrow">CONTACT</p>
+
+    <h2>Let's connect.</h2>
+
+    <p>
+        For questions about my research, engineering projects,
+        or academic work, feel free to reach out.
+    </p>
+
+
+    <div class="contact-links">
+
+        <a
+            href="mailto:muhammad7hadii@gmail.com"
+            class="contact-card"
+        >
+            <span>Email</span>
+            <strong>muhammad7hadii@gmail.com</strong>
+        </a>
+
+
+        <a
+            href="https://github.com/mhadijaz69"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+        >
+            <span>GitHub</span>
+            <strong>@mhadijaz69 ↗</strong>
+        </a>
+
+
+        <a
+            href="https://www.linkedin.com/in/muhammad-hadi-9a4661386/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contact-card"
+        >
+            <span>LinkedIn</span>
+            <strong>Muhammad Hadi ↗</strong>
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        © <span id="year">2026</span> Muhammad Hadi
+        • Engineering Maker Portfolio
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 
