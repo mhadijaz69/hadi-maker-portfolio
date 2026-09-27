@@ -4,7 +4,7 @@ Personal engineering and maker portfolio highlighting my work in aviation, compu
 
 ## Live Portfolio
 
-https://mhadijaz69.github.io/hadi-maker-portfolio/
+https://muhammad7hadii.github.io/hadi-maker-portfolio/
 
 ## Featured Project
 
