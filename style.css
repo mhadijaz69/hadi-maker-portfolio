@@ -494,6 +494,19 @@ a {
     margin-bottom: 24px;
 }
 
+.mentor-line {
+    color: var(--navy);
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.mentor-credentials {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
 .research-details > p:not(.publication-line) {
     color: var(--muted);
     margin-bottom: 17px;
