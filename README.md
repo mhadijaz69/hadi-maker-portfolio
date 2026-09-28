@@ -1,83 +1,131 @@
 # Muhammad Hadi — Engineering Maker Portfolio
 
-Personal engineering and maker portfolio highlighting my work in aviation, computational modelling, software development, research, and sustainability.
+Personal engineering portfolio documenting my work across **aerospace engineering, aviation sustainability, computational modelling, research, and software development**.
 
-## Live Portfolio
+🌐 **[View the Live Portfolio](https://muhammad7hadii.github.io/hadi-maker-portfolio/)**
 
-https://muhammad7hadii.github.io/hadi-maker-portfolio/
+## About
 
-## Featured Project
+I am an A-Level student at **Aitchison College** interested in aerospace engineering and the application of computation and data to aviation.
 
-### Flight Fuel & Emission Calculator
+My portfolio documents a progression from researching aviation emissions to publishing my work, translating that research into a working software application, and gaining experience in a professional engineering consultancy environment.
 
-A Python and Streamlit web application that estimates flight distance, fuel consumption, CO₂ emissions, operating fuel cost, and passenger impact while allowing users to compare commercial aircraft on the same route.
+## Featured Engineering Project
+
+### ✈️ Flight Fuel & Emission Calculator
+
+A Python and Streamlit application that explores how aircraft selection and route distance affect estimated fuel consumption, CO₂ emissions, operating fuel cost, and passenger environmental impact.
 
 Current project coverage includes:
 
-- 31 airports
+- 31 international airports
 - 4 commercial airlines
 - 25+ aircraft
-- Aircraft comparison
 - Route-distance calculations
 - Fuel and emissions estimation
-- Passenger-impact calculations
-- Data visualisation
+- Per-passenger impact
+- Aircraft range validation
+- Aircraft comparison and visualisation
 
-### Live Application
+**[Launch Live Application](https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/)**  
+**[Explore Source Code](https://github.com/muhammad7hadii/flight-emissions-app)**  
+**[View Full Project Case Study](https://muhammad7hadii.github.io/hadi-maker-portfolio/project.html)**
 
-https://flight-emissions-app-g4cgwpxcgribp68v5itqky.streamlit.app/
+## Research & Publication
 
-### Source Code
+My aviation project developed alongside a ten-week research project through the **RISE Research Scholar Programme**.
 
-https://github.com/muhammad7hadii/flight-emissions-app
+I worked under one-on-one mentorship from **Yuiko Ichikawa**, who holds a **PhD in Meteorology from the University of Hokkaido** and an **MPhil in Data Intensive Science from the University of Cambridge**.
 
----
+### *Regression-Based Modeling of Flight Emissions and Per-Passenger Climate Impact*
 
-## Research
+**Muhammad Hadi — Sole Author**  
+International Journal for Multidisciplinary Research (IJFMR)  
+Volume 8, Issue 1, 2026
 
-My aviation project developed alongside my research into flight emissions and computational modelling.
+The research investigated aviation-emission estimation, regression-based fuel modelling, published emissions factors, and the limitations of accessible aviation datasets. The work subsequently helped inform the development of my Flight Fuel & Emission Calculator.
 
-**Paper:**  
-*Regression-Based Modeling of Flight Emissions and Per-Passenger Climate Impact*
+**[Read the Published Paper](https://www.ijfmr.com/research-paper.php?id=67871)**
 
-Published in the International Journal for Multidisciplinary Research (IJFMR), Volume 8, Issue 1, 2026.
+## Engineering Experience
 
-https://www.ijfmr.com/research-paper.php?id=67871
+My portfolio also highlights experience including:
 
----
+- **Allied Engineering Consultants (Pvt.) Ltd** — Engineering internship involving technical documentation, project proposals, engineering CV evaluation, construction drawings, AutoCAD, Excel, and professional consultancy workflows.
+- **RISE Research Scholar** — Ten-week mentored aviation-sustainability research project culminating in a sole-authored publication.
+- **Aitchison College Student Council** — Elected student representative.
+- **ArtFest & ACSEC** — Management-team experience supporting major interschool events.
+- Community-service and outreach experience across education, humanitarian initiatives, fundraising, and field research.
 
-## Portfolio Sections
+## Selected Honors
 
-- About Me
-- Featured Engineering Project
-- Research & Publication
-- Engineering Experience
-- Leadership & Community Service
-- Awards & Honors
-- Technical Skills
-- Contact
+Selected recognition includes:
 
----
+- 3rd National Position — National Science Olympiad, Computer Science
+- 4th National Position — National Science Olympiad, Physics
+- Top 25 Worldwide — Caribou Mathematics Competition
+- Silver Award — Queen's Commonwealth Essay Competition
+- Runner-Up — Immerse Global Futures Challenge
+- Gold Medal — SEAMO International Mathematics Competition
+- College Academic Blazer — Aitchison College
 
-## Technologies
+Additional honors are documented on the portfolio.
 
-The portfolio itself is built using:
+## Technical Skills
+
+**Programming & Web**
+- Python
+- Java
+- Wolfram Language
+- HTML
+- CSS
+
+**Data & Development**
+- Streamlit
+- Pandas
+- Altair
+- geopy
+- Git / GitHub
+- Data analysis
+- Computational modelling
+
+**Engineering & Professional Tools**
+- AutoCAD
+- Microsoft Excel
+- Technical writing
+- Research
+
+## Portfolio Technology
+
+This website is built using:
 
 - HTML
 - CSS
 - JavaScript
 - GitHub Pages
 
-The featured aviation application uses Python, Streamlit, Pandas, Altair, Geopy, and related aviation datasets.
+The site was developed as a lightweight static portfolio without a front-end framework.
 
----
+## Repository Structure
+
+```text
+hadi-maker-portfolio/
+├── index.html
+├── project.html
+├── style.css
+├── script.js
+├── hero-image.png
+├── app-screenshot.png
+└── README.md
+```
+
+`index.html` contains the main portfolio, while `project.html` provides a detailed engineering case study of the Flight Fuel & Emission Calculator.
 
 ## Contact
 
-**Email:** muhammad7hadii@gmail.com
+**Muhammad Hadi**
 
-**LinkedIn:**  
-https://www.linkedin.com/in/muhammad-hadi-9a4661386/
-
-**GitHub:**  
-https://github.com/muhammad7hadii
+- **Email:** [muhammad7hadii@gmail.com](mailto:muhammad7hadii@gmail.com)
+- **LinkedIn:** [Muhammad Hadi](https://www.linkedin.com/in/muhammad-hadi-9a4661386/)
+- **GitHub:** [@muhammad7hadii](https://github.com/muhammad7hadii)
+- **Portfolio:** [muhammad7hadii.github.io/hadi-maker-portfolio](https://muhammad7hadii.github.io/hadi-maker-portfolio/)
